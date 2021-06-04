@@ -36,3 +36,23 @@ h2 {
 .waiting {
   padding: 3rem;
 }
+
+#left-plant,
+#right-plant {
+  animation: float 4s ease infinite;
+}
+#sun {
+  animation: float 10s ease infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
